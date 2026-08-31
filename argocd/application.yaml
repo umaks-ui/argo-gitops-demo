@@ -3,7 +3,6 @@ kind: Application
 
 metadata:
   name: hello-app
-
   namespace: argocd
 
 spec:
@@ -19,7 +18,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: argo-demo
 
-    syncPolicy:
+  syncPolicy:
     automated:
       selfHeal: true
       prune: false
