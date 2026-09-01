@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: demo-config
-  namespace: argo-demo
-data:
-  message: "hello from git"
